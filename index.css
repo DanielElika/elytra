@@ -20,6 +20,9 @@
 .navbar{
     display:grid;
     background-color:#259c4f;
+    grid-columns-template:repeat(7,1fr);
+    grid-rows-template:50px; 
+
     
 }
 li{
