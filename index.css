@@ -20,8 +20,11 @@
 .navbar{
     display:grid;
     background-color:#259c4f;
-    grid-column-template:repeat(7,1fr);
-    grid-row-template:50px;
+    
+}
+li{
+   grid-column-template:repeat(7,1fr);
+    grid-row-template:50px; 
 }
 
 #pic {
