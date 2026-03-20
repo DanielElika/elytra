@@ -16,25 +16,13 @@
         'Lucida Sans', Arial, sans-serif;
 
 }
+
 .navbar{
-    display: inline-block;
-    justify-content: space-evenly;
-    gap: 20px;
-    word-spacing: 30px;
-    
+    display:grid;
+    background-color:#259c4f;
+    grid-column-template:repeat(7,1fr);
+    grid-row-template:50px;
 }
-.navbar2{
-    display: inline-block;
-    justify-content: space-evenly;
-    gap: 20px;
-    word-spacing: 30px;
-}
-li{
-
-    display: inline-flex;
-    justify-content: safe;
-}
-
 
 #pic {
     height:400px;
